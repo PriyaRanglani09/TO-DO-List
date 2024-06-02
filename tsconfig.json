@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Set the target ECMAScript version (e.g., es2015, esnext)
+    "lib": ["dom", "dom.iterable", "esnext"], // Include necessary standard libraries
+    "allowJs": true, // Allow compilation of existing JavaScript files
+    "skipLibCheck": true, // Skip type checking of library files (if using external libraries)
+    "esModuleInterop": true, // Enable ES module interop for smooth integration
+    "allowSyntheticDefaultImports": true, // Allow synthetic default imports
+    "strict": true, // Enable strict mode for type safety
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file name casing
+    "noImplicitAny": true, // Disallow implicit `any` type usage
+    "experimentalDecorators": true, // Enable experimental support for decorators
+    "jsx": "react", // Configure JSX mode for React
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "outDir": "build", // Output compiled JavaScript to the `build` directory (optional)
+    "rootDir": "src", // Root directory for TypeScript files (optional)
+    "sourceMap": true // Generate source maps for debugging (optional)
+  },
+  "include": ["src"] // Include all files in the `src` directory for compilation
+}

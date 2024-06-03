@@ -1,3 +1,27 @@
+React Course - To do list
+
+The todo task project is to keep track of your tasks and stay organized. This in sync with on going React course inspired by Mrinal Bhattacharya
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/PriyaRanglani09/TO-DO-List.git
+```
+
+Go to the project directory
+
+```bash
+  cd To-Do-list
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
